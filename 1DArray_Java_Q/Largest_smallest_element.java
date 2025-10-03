@@ -27,3 +27,16 @@ public class Largest_smallest_element {
 		System.out.println("Smallest element in the array is: "+smallest);
 	}
 }
+
+//output:
+//	Enter number of elements: 
+//		6
+//		Enter the elements: 
+//		7
+//		97
+//		5
+//		-3
+//		-1
+//		7
+//		Largest element in the array is: 97
+//		Smallest element in the array is: -3
