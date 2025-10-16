@@ -8,7 +8,7 @@
 
 /* ===== BODY ===== */
 body {
-  background-color: #000; /* full black background */
+  background-color: #fdf8f8; /* full black background */
   color: #fff;
 }
 
@@ -171,7 +171,7 @@ body {
 .coming-soon {
   font-size: 16px;
   font-weight: 500;
-  color: #fff;
+  color: #080000;
   text-decoration: none;
   padding: 5px 10px;
   border: 1px solid #e91748;
