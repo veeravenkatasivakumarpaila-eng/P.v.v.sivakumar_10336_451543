@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMyMovie</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="movie.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="navbar">
+      <div class="nav-div">
+        <div class="logo">
+          <img src="https://img.freepik.com/premium-vector/take-look-this-amazing-icon-movies-app-icon_142112-6339.jpg" alt="BookMyMovie Logo" class="logo-img" />
+          <span class="logo-text">BookMyMovie</span>
+          <a href="#" class="location-wrapper">
+            <img
+              class="location-icon"
+              src="https://images.icon-icons.com/2642/PNG/512/google_map_location_logo_icon_159350.png"
+              alt="Select Location"
+            />
+            <span class="current-location">(Vizag)</span>
+          </a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+          <input type="text" placeholder="Search for movies, theatres..." />
+        </div>
+
+        <div>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">Theatres</a></li>
+              <li><a href="#">Bookings</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="auth-links">
+          <a href="#">Login</a>
+          <a href="#">SignUp</a>
+        </div>
+      </div>
+    </header>
+
+      <!-- ===== MOVIE HEADER ===== -->
+      <div class="movie-header">
+        <h2 class="section-title">Now Showing</h2>
+        <a href="#" class="coming-soon">Coming Soon</a>
+      </div>
+
+      <!-- ===== FILTER ROW ===== -->
+      <div class="filter-row">
+        <!-- Filter Dropdown -->
+        <div class="filter-dropdown">
+          <div class="filter-btn">
+            Filter ▼
+            <div class="filter-content">
+              <!-- Languages -->
+              <div class="filter-group">
+                <p class="filter-title">Languages</p>
+                <label><input type="checkbox" /> English</label>
+                <label><input type="checkbox" /> Hindi</label>
+                <label><input type="checkbox" /> Telugu</label>
+                <label><input type="checkbox" /> Tamil</label>
+              </div>
+              <!-- Genres -->
+              <div class="filter-group">
+                <p class="filter-title">Genres</p>
+                <label><input type="checkbox" /> Action</label>
+                <label><input type="checkbox" /> Drama</label>
+                <label><input type="checkbox" /> Comedy</label>
+                <label><input type="checkbox" /> Thriller</label>
+              </div>
+              <!-- Formats -->
+              <div class="filter-group">
+                <p class="filter-title">Format</p>
+                <label><input type="checkbox" /> 2D</label>
+                <label><input type="checkbox" /> 3D</label>
+                <label><input type="checkbox" /> IMAX</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Selected / Filtered Options (Static for now) -->
+        <div class="filtered-options">
+          <span class="filter-chip">English</span>
+          <span class="filter-chip">Action</span>
+          <span class="filter-chip">2D</span>
+        </div>
+      </div>
+
+
+      <!-- ===== MOVIES GRID ===== -->
+      <div class="movies-grid">
+        <!-- Movie 1 -->
+        <div class="movie-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/80/How_To_Train_Your_Dragon_2025_Poster.jpg" alt="How to Train Your Dragon" />
+          <p class="movie-title">How to Train Your Dragon</p>
+          <div class="movie-buttons">
+            <button>See Details</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie 2 -->
+        <div class="movie-card">
+          <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/img_3540.jpeg" alt="Transformers: Rise of the Beasts" />
+          <p class="movie-title">Transformers: Rise of the Beasts</p>
+          <div class="movie-buttons">
+            <button>See Details</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie 3 -->
+        <div class="movie-card">
+          <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/91/Endgame_Poster_2.jpg/revision/latest/scale-to-width-down/1200?cb=20190314215527" alt="Avengers: Endgame" />
+          <p class="movie-title">Avengers: Endgame</p>
+          <div class="movie-buttons">
+            <button>See Details</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie 4 -->
+        <div class="movie-card">
+          <img src="data:image/jpeg;base64,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" alt="Avatar: The Way of Water" />
+          <p class="movie-title">Avatar: The Way of Water</p>
+          <div class="movie-buttons">
+            <button>See Details</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie 5 -->
+        <div class="movie-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" alt="Interstellar" />
+          <p class="movie-title">Interstellar</p>
+          <div class="movie-buttons">
+            <button>See Details</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
