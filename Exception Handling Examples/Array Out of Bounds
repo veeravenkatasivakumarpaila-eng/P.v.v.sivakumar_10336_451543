@@ -1,0 +1,12 @@
+public class ArrayException {
+    public static void main(String[] args) {
+        try {
+            int[] nums = {1, 2};
+            System.out.println(nums[3]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Index out of bounds!");
+        }
+    }
+}
+Output:
+Index out of bounds!
