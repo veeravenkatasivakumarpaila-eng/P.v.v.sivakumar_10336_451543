@@ -1,6 +1,5 @@
  A. Basic Questions on List Interface
 � ArrayList
-
 1. Write a Java program to create an ArrayList of integers and print all elements. 
 2. Add elements to an ArrayList, remove an element, and print the final list. 
 3. Retrieve an element by index from an ArrayList.
