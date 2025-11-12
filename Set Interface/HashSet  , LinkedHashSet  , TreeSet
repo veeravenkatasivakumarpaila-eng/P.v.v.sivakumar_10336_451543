@@ -18,3 +18,180 @@
 
 � HashSet
 1.)
+16) Create a HashSet of strings and display all elements
+import java.util.HashSet;
+public class Q16 {
+    public static void main(String[] args) {
+        HashSet<String> set = new HashSet<>();
+        set.add("apple"); set.add("banana"); set.add("cherry");
+        System.out.println(set);
+    }
+}
+
+
+Output (order may vary):
+
+[banana, apple, cherry]
+
+
+Note: HashSet does not guarantee order; your order may differ.
+
+17) Add duplicate elements in a HashSet and observe
+import java.util.HashSet;
+public class Q17 {
+    public static void main(String[] args) {
+        HashSet<String> set = new HashSet<>();
+        set.add("a");
+        set.add("b");
+        set.add("a"); // duplicate
+        System.out.println(set);
+    }
+}
+
+
+Output:
+
+[a, b]
+
+
+Duplicate "a" is ignored.
+
+18) Check if an element exists in a HashSet
+import java.util.HashSet;
+public class Q18 {
+    public static void main(String[] args) {
+        HashSet<Integer> set = new HashSet<>();
+        set.add(1); set.add(2);
+        System.out.println(set.contains(2));
+    }
+}
+
+
+Output:
+
+true
+
+19) Remove an element from a HashSet
+import java.util.HashSet;
+public class Q19 {
+    public static void main(String[] args) {
+        HashSet<String> set = new HashSet<>();
+        set.add("one"); set.add("two");
+        set.remove("one");
+        System.out.println(set);
+    }
+}
+
+
+Output:
+
+[two]
+
+20) Convert a HashSet to an ArrayList
+import java.util.HashSet;
+import java.util.ArrayList;
+public class Q20 {
+    public static void main(String[] args) {
+        HashSet<String> set = new HashSet<>();
+        set.add("x"); set.add("y");
+        ArrayList<String> list = new ArrayList<>(set);
+        System.out.println(list);
+    }
+}
+
+
+Output (order may vary):
+
+[y, x]
+
+LinkedHashSet
+21) LinkedHashSet maintains insertion order
+import java.util.LinkedHashSet;
+public class Q21 {
+    public static void main(String[] args) {
+        LinkedHashSet<String> lhs = new LinkedHashSet<>();
+        lhs.add("first");
+        lhs.add("second");
+        lhs.add("third");
+        System.out.println(lhs);
+    }
+}
+
+
+Output:
+
+[first, second, third]
+
+22) Add, remove, and check elements in LinkedHashSet
+import java.util.LinkedHashSet;
+public class Q22 {
+    public static void main(String[] args) {
+        LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
+        lhs.add(10);
+        lhs.add(20);
+        System.out.println(lhs.contains(10)); // true
+        lhs.remove(10);
+        System.out.println(lhs.contains(10)); // false
+    }
+}
+
+
+Output:
+
+true
+false
+
+TreeSet
+23) TreeSet of numbers — sorted order
+import java.util.TreeSet;
+public class Q23 {
+    public static void main(String[] args) {
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(30); ts.add(10); ts.add(20);
+        System.out.println(ts);
+    }
+}
+
+
+Output:
+
+[10, 20, 30]
+
+24) Display elements in descending order using descendingSet()
+import java.util.TreeSet;
+import java.util.NavigableSet;
+public class Q24 {
+    public static void main(String[] args) {
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(1); ts.add(3); ts.add(2);
+        NavigableSet<Integer> desc = ts.descendingSet();
+        System.out.println(desc);
+    }
+}
+
+
+Output:
+
+[3, 2, 1]
+
+25) first(), last(), higher(), and lower()
+import java.util.TreeSet;
+public class Q25 {
+    public static void main(String[] args) {
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(10); ts.add(20); ts.add(30); ts.add(40);
+
+        System.out.println("first: " + ts.first());
+        System.out.println("last: " + ts.last());
+        System.out.println("higher than 20: " + ts.higher(20));
+        System.out.println("lower than 20: " + ts.lower(20));
+    }
+}
+
+
+Output:
+
+first: 10
+last: 40
+higher than 20: 30
+lower than 20: 10
