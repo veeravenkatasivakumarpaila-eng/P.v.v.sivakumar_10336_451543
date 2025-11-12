@@ -1,0 +1,43 @@
+1. Write a Java program to create an ArrayList of integers and print all elements. 
+2. Add elements to an ArrayList, remove an element, and print the final list. 
+3. Retrieve an element by index from an ArrayList.
+4. Iterate through an ArrayList using: o For loop o Enhanced for loop o Iterator o Stream API
+5. Check whether a specific element exists in an ArrayList. 
+6. Convert an ArrayList to an array. 
+7. Sort an ArrayList of integers in ascending and descending order. 
+8. Copy one ArrayList to another.
+9. Clear all elements from an ArrayList. 
+10. Check if an ArrayList is empty or not.
+
+
+1.) 
+import java.util.ArrayList;
+public class Q1 {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        System.out.println(list);
+    }
+}
+
+Output:
+[10, 20, 30]
+
+
+2.)
+import java.util.ArrayList;
+public class Q2 {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.remove(Integer.valueOf(2)); // remove element 2
+        System.out.println(list);
+    }
+}
+
+Output:
+[1, 3]
