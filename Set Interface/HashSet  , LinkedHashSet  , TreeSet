@@ -1,0 +1,20 @@
+� HashSet 
+1. Create a HashSet of strings and display all elements. 
+2. Add duplicate elements in a HashSet and observe the output.
+3. Check if an element exists in a HashSet. 
+4.. Remove an element from a HashSet. 
+5. Convert a HashSet to an ArrayList. 
+
+� LinkedHashSet 
+1. Create a LinkedHashSet and show how it maintains insertion order. 
+2. Add, remove, and check elements in a LinkedHashSet.
+
+� TreeSet
+1.. Create a TreeSet of numbers and print them in sorted order. 
+2. Use TreeSet to display elements in descending order using descendingSet(). 
+3. Find first(), last(), higher(), and lower() elements in a TreeSet.
+
+
+
+� HashSet
+1.)
