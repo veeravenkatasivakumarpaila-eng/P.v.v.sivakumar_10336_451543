@@ -324,19 +324,3 @@ Output:
 
 
 
-15)
-import java.util.LinkedList;
-import java.util.Iterator;
-public class Q15 {
-    public static void main(String[] args) {
-        LinkedList<String> ll = new LinkedList<>();
-        ll.add("first"); ll.add("second"); ll.add("third");
-        Iterator<String> it = ll.descendingIterator();
-        while (it.hasNext()) System.out.println(it.next());
-    }
-}
-
-Output:
-third
-second
-first
