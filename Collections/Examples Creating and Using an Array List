@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionExample1 {
+    public static void main(String[] args) {
+        List<String> fruits = new ArrayList<>();  // Create an ArrayList
+
+        fruits.add("Apple");   // Add elements
+        fruits.add("Banana");
+        fruits.add("Mango");
+
+        System.out.println("Fruits: " + fruits); // Print all elements
+
+        fruits.remove("Banana"); // Remove element
+        System.out.println("After removal: " + fruits);
+    }
+}
+
+Fruits: [Apple, Banana, Mango]
+After removal: [Apple, Mango]
