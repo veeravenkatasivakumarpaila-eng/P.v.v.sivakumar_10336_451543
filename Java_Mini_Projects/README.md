@@ -1,1 +1,1 @@
-Java Mini Projects
+JAVA MINI PROJECT
