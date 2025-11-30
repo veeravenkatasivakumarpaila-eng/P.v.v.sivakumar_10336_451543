@@ -1,0 +1,6 @@
+//(Use LIMIT for MySQL / PostgreSQL. Use TOP for SQL Server.)
+1. Write a query to display the first 5 students from the Students table.
+
+SELECT *
+FROM Students
+LIMIT 5;
