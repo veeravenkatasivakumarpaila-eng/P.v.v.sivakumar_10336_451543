@@ -1,0 +1,6 @@
+//1. Find students who are in Class &#39;10A&#39; AND scored more than 75.
+
+SELECT *
+FROM Students
+WHERE Class = '10A'
+  AND Marks > 75;
