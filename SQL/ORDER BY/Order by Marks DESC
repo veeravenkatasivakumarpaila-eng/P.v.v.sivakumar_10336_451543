@@ -1,0 +1,5 @@
+//1. Write a query to display all students ordered by Marks in descending order.
+
+SELECT *
+FROM Students
+ORDER BY Marks DESC;
