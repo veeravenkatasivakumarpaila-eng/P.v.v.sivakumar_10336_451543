@@ -1,0 +1,4 @@
+//1. Insert a new student record into Students (StudentID, Name, Age, Class, Marks).
+
+INSERT INTO Students (StudentID, Name, Age, Class, Marks)
+VALUES (1, 'Rahul', 15, '10A', 88.50);
