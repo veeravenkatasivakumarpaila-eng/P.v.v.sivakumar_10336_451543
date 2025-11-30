@@ -1,5 +1,0 @@
-//Write a query to find students whose Age is greater than 15.
-
-SELECT *
-FROM Students
-WHERE Age > 15;
