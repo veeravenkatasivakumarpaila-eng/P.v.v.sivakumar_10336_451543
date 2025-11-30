@@ -1,0 +1,11 @@
+//1. Write an SQL query to create a table named Students with fields: StudentID, Name,
+Age, Class, Marks.
+
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name      VARCHAR(100),
+    Age       INT,
+    Class     VARCHAR(20),
+    Marks     INT
+);
