@@ -1,0 +1,6 @@
+3. Write a query to modify the Marks column to DECIMAL(5,2).
+
+ALTER TABLE Students
+MODIFY Marks DECIMAL(5,2);
+-- SQL Server:
+-- ALTER TABLE Students ALTER COLUMN Marks DECIMAL(5,2);
