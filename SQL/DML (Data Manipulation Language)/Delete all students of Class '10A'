@@ -1,0 +1,4 @@
+//6. Delete all students who belong to Class &#39;10A&#39;.
+
+DELETE FROM Students
+WHERE Class = '10A';
