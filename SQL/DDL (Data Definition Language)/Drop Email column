@@ -1,4 +1,4 @@
-4. Write a query to drop the Email column from Students table.
+//4. Write a query to drop the Email column from Students table.
 
 ALTER TABLE Students
 DROP COLUMN Email;
