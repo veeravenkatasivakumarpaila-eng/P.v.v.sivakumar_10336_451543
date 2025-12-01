@@ -1,0 +1,4 @@
+//5. Delete a student record where StudentID = 5.
+
+DELETE FROM Students
+WHERE StudentID = 5;
