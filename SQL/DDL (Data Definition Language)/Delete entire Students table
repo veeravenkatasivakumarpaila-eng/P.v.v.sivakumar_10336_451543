@@ -1,0 +1,4 @@
+//5.Write a query to delete the entire Students table.
+
+
+DROP TABLE Students;
