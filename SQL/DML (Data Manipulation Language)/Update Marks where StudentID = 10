@@ -1,0 +1,5 @@
+//3. Update the Marks of a student with StudentID = 10 to 95.
+
+UPDATE Students
+SET Marks = 95
+WHERE StudentID = 10;
