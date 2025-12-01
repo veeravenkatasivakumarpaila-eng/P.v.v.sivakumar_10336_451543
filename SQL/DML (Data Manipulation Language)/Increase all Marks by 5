@@ -1,0 +1,4 @@
+//4. Increase all student Marks by 5 using an UPDATE query.
+
+UPDATE Students
+SET Marks = Marks + 5;
