@@ -1,0 +1,6 @@
+//7. Write a query to rename the table Students to StudentDetails.
+
+ALTER TABLE Students
+RENAME TO StudentDetails;
+-- SQL Server:
+-- EXEC sp_rename 'Students', 'StudentDetails';
