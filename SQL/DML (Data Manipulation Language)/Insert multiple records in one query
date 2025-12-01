@@ -1,0 +1,7 @@
+//2. Insert multiple records into the Students table using a single query.
+
+INSERT INTO Students (StudentID, Name, Age, Class, Marks)
+VALUES
+    (2, 'Anita', 16, '10A', 92.00),
+    (3, 'Mahesh', 14, '9B', 76.00),
+    (4, 'Sneha', 15, '9A', 81.50);
