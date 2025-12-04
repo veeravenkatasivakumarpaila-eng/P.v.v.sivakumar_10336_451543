@@ -1,1 +1,62 @@
+A. DDL (Data Definition Language) Questions
+1. Write an SQL query to create a table named Students with fields: StudentID, Name,
+Age, Class, Marks.
+2. Write a query to add a new column Email to the Students table.
+3. Write a query to modify the Marks column to DECIMAL(5,2).
+4. Write a query to drop the Email column from Students table.
+5. Write a query to delete the entire Students table.
+6. Write an SQL query to create a table Departments with DepartmentID (PK) and
+DepartmentName.
+7. Write a query to rename the table Students to StudentDetails.
+8. Write a query to truncate all records from the Students table.
+
+B. DML (Data Manipulation Language) Questions
+1. Insert a new student record into Students (StudentID, Name, Age, Class, Marks).
+2. Insert multiple records into the Students table using a single query.
+3. Update the Marks of a student with StudentID = 10 to 95.
+4. Increase all student Marks by 5 using an UPDATE query.
+5. Delete a student record where StudentID = 5.
+6. Delete all students who belong to Class &#39;10A&#39;.
+7. Write a query to display all columns from the Students table.
+8. Write a query to display only Name and Marks from the Students table.
+
+C. WHERE Clause Questions
+1. Write a query to find students whose Age is greater than 15.
+2. Write a query to find students whose Marks are less than 40.
+3. Select students where Class = &#39;10A&#39;.
+4. Select students whose Marks are BETWEEN 60 and 80.
+5. Find students with Age IN (14, 15, 16).
+6. Display students where Name LIKE &#39;A%&#39;.
+7. Find students where Marks IS NULL.
+8. Find students where Age &gt;= 16 AND Marks &gt; 70.
+
+D. Logical Operators (AND, OR, NOT) Questions
+1. Find students who are in Class &#39;10A&#39; AND scored more than 75.
+2. Find students who scored less than 40 OR Age is less than 14.
+3. Find students who are NOT in Class &#39;9B&#39;.
+4. Write a query to find students with Age &gt; 14 AND Class = &#39;8A&#39;.
+5. Select students where Name starts with &#39;S&#39; OR Marks &gt; 90.
+
+6. Select students where Age NOT BETWEEN 15 AND 18.
+7. Write a query to find students Marks NOT IN (50, 60, 70).
+
+E. ORDER BY Questions
+1. Write a query to display all students ordered by Marks in descending order.
+2. Display students ordered by Name in alphabetical (ASC) order.
+3. Sort students first by Class, then by Marks.
+4. List students ordered by Age in descending order.
+5. Display all students ordered by Marks ASC and Age DESC.
+
+F. LIMIT Questions
+(Use LIMIT for MySQL / PostgreSQL. Use TOP for SQL Server.)
+1. Write a query to display the first 5 students from the Students table.
+2. Display the top 3 students with the highest Marks.
+3. Display the lowest 10 scoring students.
+4. Display 5 students after skipping the first 2 records (OFFSET).
+5. Display the first student with the highest Marks using ORDER BY and LIMIT.
+
+
+
+
+
 
