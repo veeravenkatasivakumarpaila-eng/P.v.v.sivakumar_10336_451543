@@ -3,6 +3,7 @@ package collections;
 import java.util.*;
 public class ArrayListExample {
 
+	
 	public static void main(String[] args) {
 		List<Integer> ab=new ArrayList<>();
 		ab.add(10);
