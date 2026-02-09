@@ -10,4 +10,4 @@ The directory structure (key folders like src/, components/, backend/)
 
 Any notable libraries or frameworks used (JS, React)
 
-Database information (if applicable)
+Database information
