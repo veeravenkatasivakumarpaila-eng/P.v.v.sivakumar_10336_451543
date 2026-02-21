@@ -1,4 +1,3 @@
-
 package practise;
 
 import java.util.Arrays;
