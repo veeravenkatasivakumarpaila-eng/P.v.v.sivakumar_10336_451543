@@ -1,4 +1,3 @@
-
 //2. Write a query to add a new column Email to the Students table.
 
 ALTER TABLE Students
