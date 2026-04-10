@@ -1,5 +1,4 @@
 
-
 A. DDL (Data Definition Language) Questions
 1. Write an SQL query to create a table named Students with fields: StudentID, Name,
 Age, Class, Marks.
