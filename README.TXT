@@ -1,6 +1,6 @@
 TASKS:
 
-The purpose of the project (e.g., is it a web app, software tool, projects )
+The purpose of the project (e.g., is it a web app, software tool, projects)
 
 Key technologies used (e.g., JavaScript, React, HTML, Java)
 
