@@ -1,5 +1,4 @@
 package arrays;
-
 import java.util.*;
 
 public class sum_of_elements_key {
