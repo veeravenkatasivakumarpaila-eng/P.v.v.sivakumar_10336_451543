@@ -1,4 +1,4 @@
-package practise;
+ package practise;
 import java.util.*;
 public class Binary_search {
 
