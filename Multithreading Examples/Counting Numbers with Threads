@@ -1,4 +1,3 @@
-
 java
 class NumberThread extends Thread {
     public void run() {
